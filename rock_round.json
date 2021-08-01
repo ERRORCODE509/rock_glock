@@ -1,0 +1,89 @@
+[
+  {
+    "id": "rock_round_cpr",
+    "type": "AMMO",
+    "name": { "str_sp": "clay pellet rounds" },
+    "description": "CPR (clay pellet rounds) for the Rock Glock. Best for unarmored targets, as they lack armor penetration of any kind. ",
+    "weight": "7 g",
+    "volume": "115 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "flags": [ "BLACKPOWDER" ],
+    "material": [ "wood", "powder", "clay" ],
+    "symbol": "=",
+    "color": "brown",
+    "count": 100,
+    "stack_size": 100,
+    "ammo_type": "rock_round",
+    "casing": "rock_round_casing",
+    "range": 14,
+    "damage": { "damage_type": "bullet", "amount": 8 },
+    "dispersion": 60,
+    "recoil": 250,
+    "effects": [ "COOKOFF" ]
+  },
+  {
+    "id": "rock_round_pr",
+    "copy-from": "rock_round_cpr",
+    "type": "AMMO",
+    "name": { "str_sp": "pebble rounds" },
+    "description": "PR (pebble rounds) for the Rock Glock. About as damaging as CFR, but has a small amount of armor penetration.",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "wood", "powder", "stone" ],
+    "relative": { "damage": { "damage_type": "bullet", "amount": 0, "armor_penetration": 1 } },
+  },
+  {
+    "id": "rock_round_mr",
+    "copy-from": "rock_round_pr",
+    "type": "AMMO",
+    "name": { "str_sp": "marble rounds" },
+    "description": "MR (marble rounds) for the Rock Glock. Near identical to PR.",
+    "material": [ "wood", "powder", "glass" ]
+  },
+  {
+    "id": "rock_round_br",
+    "copy-from": "rock_round_cpr",
+    "type": "AMMO",
+    "name": { "str_sp": "bearing rounds" },
+    "description": "BR (bearing rounds) for the Rock Glock. Offers the best damage and armor penetration for the Rock Glock.",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "wood", "powder", "steel" ],
+    "relative": { "damage": { "damage_type": "bullet", "amount": 4, "armor_penetration": 2 } },
+  },
+  {
+    "id": "rock_round_cpr_crude",
+    "copy-from": "rock_round_cpr",
+    "type": "AMMO",
+    "name": { "str_sp": "crude clay pellet rounds" },
+    "description": "CPR made with crude black powder. Worse in almost every way, though they do have lower recoil.",
+	"recoil": 150,
+	"damage": { "damage_type": "bullet", "amount": 5 }
+  },
+  {
+    "id": "rock_round_pr_crude",
+    "copy-from": "rock_round_cpr",
+    "type": "AMMO",
+    "name": { "str_sp": "crude pebble rounds" },
+    "description": "PR made with crude black powder. Worse in almost every way, though they do have lower recoil.",
+	"recoil": 150,
+	"damage": { "damage_type": "bullet", "amount": 5, "armor_penetration": 1 }
+  },
+  {
+    "id": "rock_round_mr_crude",
+    "copy-from": "rock_round_pr_crude",
+    "type": "AMMO",
+    "name": { "str_sp": "crude marble rounds" },
+    "description": "MR made with crude black powder. Worse in almost every way, though they do have lower recoil."
+  },
+  {
+    "id": "rock_round_br_crude",
+    "copy-from": "rock_round_cpr",
+    "type": "AMMO",
+    "name": { "str_sp": "crude pebble rounds" },
+    "description": "BR made with crude black powder. Worse in almost every way, though they do have lower recoil.",
+	"recoil": 150,
+	"damage": { "damage_type": "bullet", "amount": 7, "armor_penetration": 2 }
+  }
+]

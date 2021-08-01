@@ -1,0 +1,8 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "rock_round",
+    "name": "rock round",
+    "default": "rock_round_pr"
+  }
+]

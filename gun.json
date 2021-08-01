@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rock_glock",
+    "copy-from": "pistol_base",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "name": { "str": "Rock Glock" },
+    "description": "A caveman's prefered form of personal defense.",
+    "weight": "2500 g",
+    "volume": "386 ml",
+    "longest_side": "211 mm",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": [ "stone", "wood" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": [ "rock_round" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 2 },
+    "dispersion": 480,
+    "durability": 6,
+	"blackpowder_tolerance": 60,
+    "min_cycle_recoil": 380,
+	"modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "100 L",
+        "max_contains_weight": "100 kg",
+        "item_restriction": [ "rock_glock_mag", "rock_glock_mag_extended", "rock_glock_mag_drum" ]
+      }
+    ],
+	"flags": [ "PRIMITIVE_RANGED_WEAPON" ]
+  }
+]

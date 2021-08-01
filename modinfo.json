@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "rock_glock",
+    "name": "rock_glock",
+    "authors": [ "ERROR_CODE" ],
+    "description": "Fred Flintstone be packin' heat.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
