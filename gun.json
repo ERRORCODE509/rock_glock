@@ -17,12 +17,12 @@
     "symbol": "(",
     "color": "dark_gray",
     "ammo": [ "rock_round" ],
-    "ranged_damage": { "damage_type": "bullet", "amount": 2 },
-    "dispersion": 480,
+    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
+    "dispersion": 600,
     "durability": 6,
 	"blackpowder_tolerance": 60,
-    "min_cycle_recoil": 380,
-	"modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ],
+    "min_cycle_recoil": 250,
+	"modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ],
     "pocket_data": [
       {
         "magazine_well": "250 ml",
@@ -34,5 +34,56 @@
       }
     ],
 	"flags": [ "PRIMITIVE_RANGED_WEAPON" ]
+  },
+  {
+    "id": "rock_glock_mag",
+    "looks_like": "glock17_17",
+    "type": "MAGAZINE",
+    "name": { "str": "Rock Glock 15-round magazine" },
+    "description": "A compact stone magazine with wooden accents for use with the Rock Glock.",
+    "weight": "700 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "stone", "wood" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "rock_round" ],
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "rock_round": 15 } } ]
+  },
+  {
+    "id": "rock_glock_mag_extended",
+    "looks_like": "glock17_17",
+    "type": "MAGAZINE",
+    "name": { "str": "Rock Glock 21-round extended magazine" },
+    "description": "A compact stone magazine with wooden accents for use with the Rock Glock.",
+    "weight": "825 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "stone", "wood" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "rock_round" ],
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "rock_round": 21 } } ]
+  },
+  {
+    "id": "rock_glock_mag_drum",
+    "looks_like": "glock17_17",
+    "type": "MAGAZINE",
+    "name": { "str": "Rock Glock 60-round drum magazine" },
+    "description": "A compact stone magazine with wooden accents for use with the Rock Glock.",
+    "weight": "2100 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "stone", "wood" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "rock_round" ],
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "rock_round": 60 } } ]
   }
 ]
