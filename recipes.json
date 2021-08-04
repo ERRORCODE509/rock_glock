@@ -224,7 +224,7 @@
     ],
     "charges": 12,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
-    "components": [ [ [ "chem_crude_black_powder", 48 ] ], [ [ "tinder", 1 ] ], [ [ "pebble_clay", 12 ] ], [ [ "stick", 1 ] ] ]
+    "components": [ [ [ "chem_crude_black_powder", 48 ] ], [ [ "tinder", 2 ] ], [ [ "pebble_clay", 12 ] ], [ [ "stick", 1 ] ] ]
   },
   {
     "result": "rock_round_pr_crude",
@@ -245,7 +245,7 @@
     ],
     "charges": 12,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
-    "components": [ [ [ "chem_crude_black_powder", 48 ] ], [ [ "tinder", 1 ] ], [ [ "pebble", 12 ] ], [ [ "stick", 1 ] ] ]
+    "components": [ [ [ "chem_crude_black_powder", 48 ] ], [ [ "tinder", 2 ] ], [ [ "pebble", 12 ] ], [ [ "stick", 1 ] ] ]
   },
   {
     "result": "rock_round_mr_crude",
@@ -266,7 +266,7 @@
     ],
     "charges": 12,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
-    "components": [ [ [ "chem_crude_black_powder", 48 ] ], [ [ "tinder", 1 ] ], [ [ "marble", 12 ] ], [ [ "stick", 1 ] ] ]
+    "components": [ [ [ "chem_crude_black_powder", 48 ] ], [ [ "tinder", 2 ] ], [ [ "marble", 12 ] ], [ [ "stick", 1 ] ] ]
   },
   {
     "result": "rock_round_br_crude",
@@ -287,7 +287,7 @@
     ],
     "charges": 12,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
-    "components": [ [ [ "chem_crude_black_powder", 48 ] ], [ [ "tinder", 1 ] ], [ [ "bearing", 12 ] ], [ [ "stick", 1 ] ] ]
+    "components": [ [ [ "chem_crude_black_powder", 48 ] ], [ [ "tinder", 2 ] ], [ [ "bearing", 12 ] ], [ [ "stick", 1 ] ] ]
   },
   {
     "result": "rock_glock_mag_drum_dual",
