@@ -2,7 +2,7 @@
   {
     "type": "ammunition_type",
     "id": "rock_round",
-    "name": "rock round",
+    "name": "rock rounds",
     "default": "rock_round_pr"
   }
 ]

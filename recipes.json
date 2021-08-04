@@ -7,6 +7,7 @@
     "subcategory": "CSC_AMMO_PISTOL",
     "skill_used": "fabrication",
     "difficulty": 2,
+	"skills_required": [ "survival", 2 ],
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
@@ -26,6 +27,7 @@
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_PISTOL",
     "skill_used": "fabrication",
+	"skills_required": [ "survival", 2 ],
     "difficulty": 2,
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
@@ -46,6 +48,7 @@
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_PISTOL",
     "skill_used": "fabrication",
+	"skills_required": [ "survival", 2 ],
     "difficulty": 2,
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
@@ -66,6 +69,7 @@
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_PISTOL",
     "skill_used": "fabrication",
+	"skills_required": [ "survival", 2 ],
     "difficulty": 2,
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
@@ -87,8 +91,9 @@
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
     "difficulty": 2,
-    "time": "12 h",
-    "batch_time_factors": [ 20, 2 ],
+	"skills_required": [ "survival", 1 ],
+    "time": "18 h",
+    "batch_time_factors": [ 15, 2 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
 	"autolearn": "true",
 	"proficiencies": [
@@ -99,5 +104,104 @@
     ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL_ROCK", "level": 1 }, { "id": "PUNCH", "level": 1 }, { "id": "CHISEL", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
     "components": [ [ [ "rock", 12 ] ], [ [ "stick", 2 ] ] ]
+  },
+  {
+    "result": "rock_glock_mag",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+	"skills_required": [ "survival", 1 ],
+    "difficulty": 2,
+    "time": "12 h",
+    "batch_time_factors": [ 20, 2 ],
+	"tools": [ [ [ "fire", -1 ] ] ],
+	"autolearn": "true",
+	"proficiencies": [
+      { "proficiency": "prof_knapping", "fail_multiplier": 1.5 },
+      { "proficiency": "prof_knapping_speed", "fail_multiplier": 0.5 },
+      { "proficiency": "prof_carving", "fail_multiplier": 0.75 }
+    ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL_ROCK", "level": 1 }, { "id": "PUNCH", "level": 1 }, { "id": "CHISEL", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
+    "components": [ [ [ "rock", 8 ] ], [ [ "stick", 1 ] ] ]
+  },
+  {
+    "result": "rock_glock_mag_extended",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+	"skills_required": [ "survival", 2 ],
+    "difficulty": 2,
+    "time": "18 h",
+    "batch_time_factors": [ 20, 2 ],
+	"tools": [ [ [ "fire", -1 ] ] ],
+	"autolearn": "true",
+	"proficiencies": [
+      { "proficiency": "prof_knapping", "fail_multiplier": 1.5 },
+      { "proficiency": "prof_knapping_speed", "fail_multiplier": 0.5 },
+      { "proficiency": "prof_carving", "fail_multiplier": 0.75 }
+    ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL_ROCK", "level": 1 }, { "id": "PUNCH", "level": 1 }, { "id": "CHISEL", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
+    "components": [ [ [ "rock", 12 ] ], [ [ "stick", 2 ] ] ]
+  },
+  {
+    "result": "rock_glock_mag_drum",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+	"skills_required": [ "survival", 3 ],
+    "difficulty": 3,
+    "time": "48 h",
+    "batch_time_factors": [ 20, 2 ],
+	"tools": [ [ [ "fire", -1 ] ] ],
+	"autolearn": "true",
+	"proficiencies": [
+      { "proficiency": "prof_knapping", "fail_multiplier": 1.5 },
+      { "proficiency": "prof_knapping_speed", "fail_multiplier": 0.5 },
+      { "proficiency": "prof_carving", "fail_multiplier": 0.75 }
+    ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL_ROCK", "level": 1 }, { "id": "PUNCH", "level": 1 }, { "id": "CHISEL", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
+    "components": [ [ [ "rock", 4 ] ], [ [ "stick", 6 ] ], [ [ "rock_large", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "chem_crude_black_powder",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_COMPONENTS",
+    "skill_used": "fabrication",
+	"skills_required": [ "survival", 1 ],
+    "difficulty": 2,
+    "time": "5 m",
+	"autolearn": "true",
+    "charges": 100,
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
+    "components": [ [ [ "chem_saltpetre", 5 ] ], [ [ "charcoal", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "tinder",
+	"id_suffix": "cut_rock_glock_casing",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+	"skills_required": [ "survival", 1 ],
+    "difficulty": 2,
+    "time": "1 s",
+	"batch_time_factors": [ 95, 1 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+	"charges": 1,
+    "components": [
+      [
+        [ "rock_glock_casing", 1 ]
+      ]
+    ]
   }
 ]
