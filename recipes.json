@@ -11,8 +11,12 @@
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
 	"autolearn": "true",
-    "charges": 1,
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL_ROCK", "level": 1 }, { "id": "PUNCH", "level": 1 }, { "id": "CHISEL", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
+	"proficiencies": [
+      { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
+      { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
+    ],
+    "charges": 12,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
     "components": [ [ [ "chem_black_powder", 24 ] ], [ [ "pebble_clay", 12 ] ], [ [ "stick", 1 ] ] ]
   },
   {
@@ -27,8 +31,12 @@
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
 	"autolearn": "true",
-    "charges": 1,
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL_ROCK", "level": 1 }, { "id": "PUNCH", "level": 1 }, { "id": "CHISEL", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
+	"proficiencies": [
+      { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
+      { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
+    ],
+    "charges": 12,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
     "components": [ [ [ "chem_black_powder", 24 ] ], [ [ "pebble", 12 ] ], [ [ "stick", 1 ] ] ]
   },
   {
@@ -43,8 +51,12 @@
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
 	"autolearn": "true",
-    "charges": 1,
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL_ROCK", "level": 1 }, { "id": "PUNCH", "level": 1 }, { "id": "CHISEL", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
+	"proficiencies": [
+      { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
+      { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
+    ],
+    "charges": 12,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
     "components": [ [ [ "chem_black_powder", 24 ] ], [ [ "marble", 12 ] ], [ [ "stick", 1 ] ] ]
   },
   {
@@ -59,24 +71,33 @@
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
 	"autolearn": "true",
-    "charges": 1,
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL_ROCK", "level": 1 }, { "id": "PUNCH", "level": 1 }, { "id": "CHISEL", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
+	"proficiencies": [
+      { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
+      { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
+    ],
+    "charges": 12,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
     "components": [ [ [ "chem_black_powder", 24 ] ], [ [ "bearing", 12 ] ], [ [ "stick", 1 ] ] ]
   },
   {
     "result": "rock_glock",
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-    "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_PISTOL",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
     "difficulty": 2,
-    "time": "8 h",
+    "time": "12 h",
     "batch_time_factors": [ 20, 2 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
 	"autolearn": "true",
-    "charges": 1,
+	"proficiencies": [
+      { "proficiency": "prof_knapping", "fail_multiplier": 1.5 },
+      { "proficiency": "prof_knapping_speed", "fail_multiplier": 0.5 },
+      { "proficiency": "prof_carving", "fail_multiplier": 0.75 },
+	  { "proficiency": "prof_gunsmithing_basic", "fail_multiplier": 0.9 }
+    ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL_ROCK", "level": 1 }, { "id": "PUNCH", "level": 1 }, { "id": "CHISEL", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
-    "components": [ [ [ "chem_black_powder", 24 ] ], [ [ "pebble_clay", 12 ] ], [ [ "stick", 1 ] ] ]
+    "components": [ [ [ "rock", 12 ] ], [ [ "stick", 2 ] ] ]
   }
 ]
