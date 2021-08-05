@@ -19,7 +19,7 @@
     "ammo": [ "rock_round" ],
     "ranged_damage": { "damage_type": "bullet", "amount": -2 },
     "dispersion": 500,
-    "durability": 12,
+    "durability": 10,
 	"blackpowder_tolerance": 120,
     "min_cycle_recoil": 250,
 	"modes": [ [ "DEFAULT", "SEMI-AUTO", 1 ], [ "BURST", "BURST", 3 ], [ "FULL-AUTO", "FULL-AUTO", 5 ], [ "FULLER-AUTO", "FULLER-AUTO", 69420 ] ],
