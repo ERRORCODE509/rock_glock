@@ -23,7 +23,7 @@
     "flag": [ "COOKOFF" ]
   },
   {
-    "id": "salt_shot",
+    "id": "salt_shot_caseless",
     "type": "AMMO",
     "name": { "str": "caseless salt shot" },
     "description": "Caseless salt shot for the A-Salt Rifle. Give your enemies more than just sodium poisoning.",
@@ -61,7 +61,7 @@
     "stack_size": 100,
     "ammo_type": "salt_shot",
     "casing": "rock_round_casing",
-    "range": 22,
+    "range": 11,
     "damage": { "damage_type": "bullet", "amount": 6, "armor_penetration": 2 },
     "dispersion": 200,
     "recoil": 250,

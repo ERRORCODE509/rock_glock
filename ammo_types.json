@@ -15,12 +15,12 @@
     "type": "ammunition_type",
     "id": "sedimentary_slug",
     "name": "sedimentary slugs",
-    "default": "sedimentary_slug"
+    "default": "sedimentary_slug_r"
   },
   {
     "type": "ammunition_type",
     "id": "pebble_pack",
     "name": "pebble packs",
-    "default": "pebble_pack"
+    "default": "pebble_pack_p"
   }
 ]
