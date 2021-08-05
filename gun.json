@@ -90,7 +90,7 @@
     "id": "rock_glock_mag_drum_dual",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
-    "name": { "str": "Rock Glock 120-round drum magazine" },
+    "name": { "str": "Rock Glock 120-round dual-drum magazine" },
     "description": "A large dual-drum magazine made of stone with wooden accents for use with the Rock Glock.",
     "weight": "9000 g",
     "volume": "4000 ml",
