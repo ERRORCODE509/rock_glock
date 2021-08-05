@@ -25,7 +25,7 @@
 	"modes": [ [ "DEFAULT", "SEMI-AUTO", 1 ], [ "BURST", "BURST", 3 ], [ "FULL-AUTO", "FULL-AUTO", 5 ], [ "FULLER-AUTO", "FULLER-AUTO", 69420 ] ],
     "pocket_data": [
       {
-        "magazine_well": "250 ml",
+        "magazine_well": "4000 ml",
         "pocket_type": "MAGAZINE_WELL",
         "holster": true,
         "max_contains_volume": "100 L",
@@ -33,7 +33,7 @@
         "item_restriction": [ "rock_glock_mag", "rock_glock_mag_extended", "rock_glock_mag_drum" ]
       }
     ],
-	"flags": [ "PRIMITIVE_RANGED_WEAPON" ]
+	"flags": [ "PRIMITIVE_RANGED_WEAPON", "TARDIS" ]
   },
   {
     "id": "rock_glock_mag",
@@ -59,7 +59,7 @@
     "name": { "str": "Rock Glock 21-round extended magazine" },
     "description": "An extended stone magazine with wooden accents for use with the Rock Glock.",
     "weight": "825 g",
-    "volume": "250 ml",
+    "volume": "400 ml",
     "price": 0,
     "price_postapoc": 0,
     "material": [ "stone", "wood" ],
@@ -76,7 +76,7 @@
     "name": { "str": "Rock Glock 60-round drum magazine" },
     "description": "A large drum magazine made of stone with wooden accents for use with the Rock Glock.",
     "weight": "4000 g",
-    "volume": "250 ml",
+    "volume": "1800 ml",
     "price": 0,
     "price_postapoc": 0,
     "material": [ "stone", "wood" ],
@@ -93,7 +93,7 @@
     "name": { "str": "Rock Glock 120-round drum magazine" },
     "description": "A large dual-drum magazine made of stone with wooden accents for use with the Rock Glock.",
     "weight": "9000 g",
-    "volume": "250 ml",
+    "volume": "4000 ml",
     "price": 0,
     "price_postapoc": 0,
     "material": [ "stone", "wood" ],

@@ -305,7 +305,7 @@
 	"proficiencies": [
       { "proficiency": "prof_knapping", "fail_multiplier": 3 },
       { "proficiency": "prof_knapping_speed" },
-      { "proficiency": "prof_carving", },
+      { "proficiency": "prof_carving" },
 	  { "proficiency": "prof_gunsmithing_basic", "fail_multiplier": 0.5 }
     ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL_ROCK", "level": 1 }, { "id": "PUNCH", "level": 1 }, { "id": "CHISEL", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
