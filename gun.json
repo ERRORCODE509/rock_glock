@@ -20,9 +20,10 @@
     "ranged_damage": { "damage_type": "bullet", "amount": -2 },
     "dispersion": 500,
     "durability": 10,
+	"faults": [ "fault_gun_blackpowder" ],
 	"blackpowder_tolerance": 120,
     "min_cycle_recoil": 250,
-	"modes": [ [ "DEFAULT", "SEMI-AUTO", 1 ], [ "BURST", "BURST", 3 ], [ "FULL-AUTO", "FULL-AUTO", 5 ], [ "FULLER-AUTO", "FULLER-AUTO", 69420 ] ],
+	"modes": [ [ "DEFAULT", "Semi-Auto", 1 ], [ "BURST", "Burst", 3 ], [ "FULL-AUTO", "Full-Auto", 5 ], [ "FULLER-AUTO", "Fuller-Auto", 69420 ] ],
     "pocket_data": [
       {
         "magazine_well": "4000 ml",
@@ -83,7 +84,6 @@
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": [ "rock_round" ],
-    "flags": [ "MAG_COMPACT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "rock_round": 60 } } ]
   },
   {
@@ -100,7 +100,6 @@
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": [ "rock_round" ],
-    "flags": [ "MAG_COMPACT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "rock_round": 120 } } ]
   },
   {
@@ -110,46 +109,66 @@
     "type": "GUN",
     "name": { "str": "The A-Salt Rifle" },
     "description": "The A-Salt Rifle: For simultaniously curing and aquiring your meat.",
-    "weight": "2880g",
+    "weight": "4000g",
     "volume": "3310 ml",
     "longest_side": "758 mm",
     "price": 0,
     "price_postapoc": 0,
     "to_hit": -1,
     "bashing": 12,
-    "material": [ "stone", "wood" ],
+    "material": [ "stone" ],
     "symbol": "(",
     "color": "light_gray",
-    "ammo": [ "223" ],
-    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
-    "dispersion": 160,
-    "durability": 8,
-    "min_cycle_recoil": 1350,
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "ammo": [ "salt_shot" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "dispersion": 260,
+    "durability": 10,
+	"blackpowder_tolerance": 270,
+	"faults": [ "fault_gun_blackpowder" ],
+    "min_cycle_recoil": 800,
+    "modes": [ [ "DEFAULT", "Burst", 2 ], [ "AUTO", "Full-Auto", 6 ], [ "FULLER-AUTO", "Fuller-Auto", 69420 ] ],
     "barrel_volume": "250 ml",
-    "built_in_mods": [ "folding_stock" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [
-          "stanag30",
-          "stanag5",
-          "stanag10",
-          "stanag20",
-          "stanag40",
-          "stanag50",
-          "stanag60",
-          "stanag60drum",
-          "stanag90",
-          "stanag100",
-          "stanag100drum",
-          "stanag150",
-          "survivor223mag"
-        ]
+        "item_restriction": [ "a_salt_mag", "a_salt_mag_drum" ]
       }
     ]
+  },
+  {
+    "id": "a_salt_mag",
+    "looks_like": "glock17_17",
+    "type": "MAGAZINE",
+    "name": { "str": "A-Salt Rifle 36-round magazine" },
+    "description": "A long, crystaline magazine for use with the A-Salt Rifle",
+    "weight": "1500 g",
+    "volume": "600 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "stone" ],
+    "symbol": "#",
+    "color": "white",
+    "ammo_type": [ "salt_shot" ],
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "salt_shot": 36 } } ]
+  },
+  {
+    "id": "a_salt_mag_drum",
+    "looks_like": "glock17_17",
+    "type": "MAGAZINE",
+    "name": { "str": "A-Salt Rifle 90-round drum magazine" },
+    "description": "A large, crystaline magazine for use with the A-Salt Rifle",
+    "weight": "5000 g",
+    "volume": "2200 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "stone" ],
+    "symbol": "#",
+    "color": "white",
+    "ammo_type": [ "salt_shot" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "salt_shot": 90 } } ]
   }
 ]
