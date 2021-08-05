@@ -8,7 +8,7 @@
     "volume": "10 ml",
     "price": 0,
     "price_postapoc": 0,
-    "effects": [ "BLACKPOWDER", "RECYCLED" ],
+    "effects": [ "BLACKPOWDER", "RECYCLED", "COOKOFF" ],
     "material": [ "wood", "powder", "stone" ],
     "symbol": "=",
     "color": "brown",
@@ -19,8 +19,7 @@
     "range": 22,
     "damage": { "damage_type": "bullet", "amount": 11, "armor_penetration": 3 },
     "dispersion": 75,
-    "recoil": 400,
-    "flag": [ "COOKOFF" ]
+    "recoil": 400
   },
   {
     "id": "salt_shot_caseless",
@@ -31,7 +30,7 @@
     "volume": "10 ml",
     "price": 0,
     "price_postapoc": 0,
-    "effects": [ "BLACKPOWDER", "RECYCLED" ],
+    "effects": [ "BLACKPOWDER", "RECYCLED", "COOKOFF" ],
     "material": [ "powder", "stone" ],
     "symbol": "=",
     "color": "white",
@@ -41,8 +40,7 @@
     "range": 22,
     "damage": { "damage_type": "bullet", "amount": 11, "armor_penetration": 3 },
     "dispersion": 75,
-    "recoil": 400,
-    "flag": [ "COOKOFF" ]
+    "recoil": 400
   },
   {
     "id": "salt_shot_crude",
@@ -53,7 +51,7 @@
     "volume": "10 ml",
     "price": 0,
     "price_postapoc": 0,
-    "effects": [ "BLACKPOWDER", "RECYCLED", "MUZZLE_SMOKE" ],
+    "effects": [ "BLACKPOWDER", "RECYCLED", "MUZZLE_SMOKE", "COOKOFF" ],
     "material": [ "wood", "powder", "stone" ],
     "symbol": "=",
     "color": "brown",
@@ -64,7 +62,6 @@
     "range": 11,
     "damage": { "damage_type": "bullet", "amount": 6, "armor_penetration": 2 },
     "dispersion": 200,
-    "recoil": 250,
-    "flag": [ "COOKOFF" ]
+    "recoil": 250
   }
 ]

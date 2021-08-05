@@ -8,7 +8,7 @@
     "volume": "10 ml",
     "price": 0,
     "price_postapoc": 0,
-    "effects": [ "BLACKPOWDER", "RECYCLED" ],
+    "effects": [ "BLACKPOWDER", "RECYCLED", "COOKOFF" ],
     "material": [ "wood", "powder", "clay" ],
     "symbol": "=",
     "color": "brown",
@@ -19,8 +19,7 @@
     "range": 18,
     "damage": { "damage_type": "bullet", "amount": 8 },
     "dispersion": 100,
-    "recoil": 350,
-    "flag": [ "COOKOFF" ]
+    "recoil": 350
   },
   {
     "id": "rock_round_pr",
