@@ -8,7 +8,7 @@
     "volume": "10 ml",
     "price": 0,
     "price_postapoc": 0,
-    "effects": [ "BLACKPOWDER", "RECYCLED", "COOKOFF" ],
+    "effects": [ "BLACKPOWDER", "COOKOFF" ],
     "material": [ "wood", "powder", "clay" ],
     "symbol": "=",
     "color": "brown",
@@ -62,7 +62,7 @@
 	"recoil": 250,
 	"range": 9,
 	"dispersion": 300,
-	"extend": { "effects": [ "MUZZLE_SMOKE" ] },
+	"extend": { "effects": [ "MUZZLE_SMOKE", "RECYCLED" ] },
 	"damage": { "damage_type": "bullet", "amount": 5 }
   },
   {
@@ -75,7 +75,7 @@
 	"dispersion": 300,
 	"range": 8,
 	"material": [ "wood", "powder", "stone" ],
-	"extend": { "effects": [ "MUZZLE_SMOKE" ] },
+	"extend": { "effects": [ "MUZZLE_SMOKE", "RECYCLED" ] },
 	"damage": { "damage_type": "bullet", "amount": 5, "armor_penetration": 1 }
   },
   {
@@ -96,7 +96,7 @@
 	"range": 7,
 	"dispersion": 300,
 	"material": [ "wood", "powder", "steel" ],
-	"extend": { "effects": [ "MUZZLE_SMOKE" ] },
+	"extend": { "effects": [ "MUZZLE_SMOKE", "RECYCLED" ] },
 	"damage": { "damage_type": "bullet", "amount": 7, "armor_penetration": 2 }
   },
   {

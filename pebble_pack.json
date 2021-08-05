@@ -8,7 +8,7 @@
     "volume": "10 ml",
     "price": 0,
     "price_postapoc": 0,
-    "effects": [ "BLACKPOWDER", "RECYCLED", "MUZZLE_SMOKE", "COOKOFF" ],
+    "effects": [ "BLACKPOWDER", "MUZZLE_SMOKE", "COOKOFF" ],
     "material": [ "wood", "powder", "stone" ],
     "symbol": "=",
     "color": "brown",
