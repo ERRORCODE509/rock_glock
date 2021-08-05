@@ -310,5 +310,5 @@
     ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL_ROCK", "level": 1 }, { "id": "PUNCH", "level": 1 }, { "id": "CHISEL", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 }, { "id": "ANVIL", "level": 1 }, { "id": "FILE", "level": 1 } ],
     "components": [ [ [ "rock", 10 ] ], [ [ "stick", 8 ] ], [ [ "rock_large", 2 ] ] ]
-  },
+  }
 ]
