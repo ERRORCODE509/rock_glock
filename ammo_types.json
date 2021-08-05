@@ -4,5 +4,23 @@
     "id": "rock_round",
     "name": "rock rounds",
     "default": "rock_round_pr"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "salt_shot",
+    "name": "salt shots",
+    "default": "salt_shot"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "sedimentary_slug",
+    "name": "sedimentary slugs",
+    "default": "sedimentary_slug"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "pebble_pack",
+    "name": "pebble packs",
+    "default": "pebble_pack"
   }
 ]

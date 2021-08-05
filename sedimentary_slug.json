@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sedimentary_slug",
+    "type": "AMMO",
+    "name": { "str": "WIP" },
+    "description": "WIP.",
+    "weight": "75 g",
+    "volume": "10 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "effects": [ "BLACKPOWDER", "RECYCLED", "MUZZLE_SMOKE" ],
+    "material": [ "wood", "powder", "stone" ],
+    "symbol": "=",
+    "color": "brown",
+    "count": 1,
+    "stack_size": 100,
+    "ammo_type": "sedimentary_slug",
+    "casing": "rock_round_casing",
+    "range": 22,
+    "damage": { "damage_type": "bullet", "amount": 11, "armor_penetration": 3 },
+    "dispersion": 75,
+    "recoil": 400,
+    "flag": [ "COOKOFF" ]
+  }
+]
