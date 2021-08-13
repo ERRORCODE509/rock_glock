@@ -11,7 +11,7 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
       { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
@@ -32,7 +32,7 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
       { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
@@ -53,7 +53,7 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
       { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
@@ -74,7 +74,7 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
       { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
@@ -95,7 +95,7 @@
     "time": "18 h",
     "batch_time_factors": [ 15, 2 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_knapping", "fail_multiplier": 1.5 },
       { "proficiency": "prof_knapping_speed", "fail_multiplier": 0.5 },
@@ -117,7 +117,7 @@
     "time": "12 h",
     "batch_time_factors": [ 20, 2 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_knapping", "fail_multiplier": 1.5 },
       { "proficiency": "prof_knapping_speed", "fail_multiplier": 0.5 },
@@ -138,7 +138,7 @@
     "time": "18 h",
     "batch_time_factors": [ 20, 2 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_knapping", "fail_multiplier": 1.5 },
       { "proficiency": "prof_knapping_speed", "fail_multiplier": 0.5 },
@@ -159,7 +159,7 @@
     "time": "48 h",
     "batch_time_factors": [ 20, 2 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_knapping", "fail_multiplier": 1.5 },
       { "proficiency": "prof_knapping_speed", "fail_multiplier": 0.5 },
@@ -179,7 +179,7 @@
 	"skills_required": [ "survival", 1 ],
     "difficulty": 2,
     "time": "5 m",
-	"autolearn": "true",
+	"autolearn": true,
     "charges": 100,
     "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "components": [ [ [ "chem_saltpetre", 5 ] ], [ [ "charcoal", 10 ] ] ]
@@ -217,7 +217,7 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
       { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
@@ -238,7 +238,7 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
       { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
@@ -259,7 +259,7 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
       { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
@@ -280,7 +280,7 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 3 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_handloading", "fail_multiplier": 0.75 },
       { "proficiency": "prof_carving", "fail_multiplier": 0.25 }
@@ -301,7 +301,7 @@
     "time": "96 h",
     "batch_time_factors": [ 20, 2 ],
 	"tools": [ [ [ "fire", -1 ] ] ],
-	"autolearn": "true",
+	"autolearn": true,
 	"proficiencies": [
       { "proficiency": "prof_knapping", "fail_multiplier": 3 },
       { "proficiency": "prof_knapping_speed" },
