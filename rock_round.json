@@ -118,7 +118,7 @@
     "category": "chems",
     "price": 0,
     "price_postapoc": 0,
-    "name": { "str_sp": "black gunpowder" },
+    "name": { "str_sp": "crude black gunpowder" },
     "symbol": ".",
     "color": "dark_gray",
     "description": "A handful of crude black gunpowder, a mix of saltpeter and charcoal. Almost completely uselss, as the lack of sulfur in the mixture makes it difficult to light on its own. Surely you could find some use for this…",
